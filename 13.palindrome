@@ -1,0 +1,17 @@
+System.out.print("Enter some text: ");
+String str = System.console().readLine();
+boolean palindrome = true;
+int count = 0;
+for (i = str.length(); i-- > 0;) {
+	if (str.charAt(i) != str.charAt(count)) {
+		palindrome = false;
+	} else {
+		count += 1;
+	}
+}
+
+if (palindrome == true) {
+	System.out.print("Is Palindrome")
+} else {
+	System.out.print("Is not a Palindrome")
+}
