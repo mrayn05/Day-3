@@ -1,4 +1,4 @@
-print "Please write a text::"
+print "Please write a text:"
 String text = System.console().readLine();
 int count = 0;
 String contain = "";
